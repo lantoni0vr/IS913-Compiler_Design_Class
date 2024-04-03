@@ -16,11 +16,11 @@ export const CharacterCard = ({ character }: Props) => {
             <div className=" bg-white rounded overflow-hidden shadow-lg">
                 <div className="flex flex-col items-center justify-center text-center p-6 bg-gray-800 border-b">
                     <Image
-                        className="w-20 h-32"
+                        className="flex w-40 h-60 justify-center items-center"
                         key={id}
                         src={image}
-                        width={200}
-                        height={200}
+                        width={250}
+                        height={250}
                         alt={name}
                         priority={false}
                     />
